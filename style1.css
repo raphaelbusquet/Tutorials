@@ -1,0 +1,29 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "head head head head head"
+    "side content content content content"
+    "footer footer footer footer footer"
+    ;
+    grid-template-rows: 10vh 80vh 10vh;
+}
+
+header {
+    grid-area: head;
+    background-color: blue;
+}
+
+aside {
+    grid-area: side;
+    background-color: brown;
+}
+
+article {
+    grid-area: content;
+    background-color: aqua;
+}
+
+footer {
+    grid-area: footer;
+    background-color: yellowgreen;
+}
